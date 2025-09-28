@@ -86,6 +86,8 @@ from typing import List, Tuple
 import numpy as np
 import pandas as pd
 
+print("haha")
+
 
 # -----------------------------
 # 1) 读取数据：第一列经度 -> x_list；第二列纬度 -> y_list
@@ -258,4 +260,5 @@ if __name__ == "__main__":
     # 如需输出对应的经纬度顺序，可取消以下注释：
     # coords_ordered = [(x_list[i], y_list[i]) for i in order]
     # print(coords_ordered)
+
 
